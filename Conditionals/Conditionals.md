@@ -44,7 +44,7 @@ else:
 
 ### 에제 4
 
-`elif`는 `else if`의 축약된 형태로서 위에서 확인한 조건 이외의
+`elif`는 `else if`의 축약된 형태로서 이전 if문에서 명시한 조건의 여집합과 현재 if문에서 명시한 조건의 교집합을 가리킬 때 사용한다.
 
 ```
 pocket = ['paper', 'cellphone']
