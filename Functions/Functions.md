@@ -90,8 +90,8 @@ print(factorial(7))
 ```
 
 ex)
-factorial(5) = 120
-factorial(7) = 5040
+- factorial(5) = 120
+- factorial(7) = 5040
 
 위 코드를 참고하여 n번째 피보나치 수열의 값을 구하는 함수를 작성하세요.
 
@@ -103,5 +103,5 @@ def fibonacci(n):
 ```
 
 ex)
-fibonacci(5) = 5
-fibonacci(20) = 6765
+- fibonacci(5) = 5
+- fibonacci(20) = 6765
