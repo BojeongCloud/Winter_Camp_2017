@@ -25,26 +25,20 @@ def sum(a, b):
 
 ### 입력값이 없는 함수
 ```
->>> def say():
-...     return 'Hi'
-...
->>>
+def say():
+    return 'Hi'
 ```
 
 ### 출력값이 없는 함수
 ```
->>> def sum(a, b):
-...     print("%d, %d의 합은 %d입니다." % (a, b, a+b))
-...
->>>
+def sum(a, b):
+    print("%d, %d의 합은 %d입니다." % (a, b, a+b))
 ```
 
 ### 입력값과 출력값 모두 없는 함수
 ```
->>> def say():
-...     print('Hi')
-...
->>>
+def say():
+    print('Hi')
 ```
 
 ## 예제 3
