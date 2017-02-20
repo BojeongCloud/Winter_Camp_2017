@@ -31,14 +31,15 @@ class Wave():
 
     def is_stable(self):
         if self.radius > max(screen_width, screen_height):
-            # 적당한 명령어를 입력하세요 (1줄)
+            return True
         else:
-            # 적당한 명령어를 입력하세요 (1줄)
+            return False
 
 while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             # 윈도우 기준으로 우측 상단 X 버튼을 누르면 종료되도록 적당한 명령어를 입력하세요 (1줄)
+            # while문에서 탈출하기 위한 조건이 무엇인지 생각해보세요.
 
         if event.type == pygame.MOUSEBUTTONUP:
             pos = pygame.mouse.get_pos()
@@ -49,6 +50,7 @@ while not done:
         if i.is_stable():
             waves.remove(i)
         else:
-            # 적당한 명령어를 입력하세요 (2줄)
+            # 적당한 명령어를 입력하세요 (1줄)
+            i.draw()
 
     pygame.display.flip()
